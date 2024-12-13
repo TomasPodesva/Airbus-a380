@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbus A380</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Airbus A380</h1>
+        <p>Největší dopravní letoun na světě</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#info">Informace</a></li>
+            <li><a href="#specifikace">Specifikace</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="info">
+            <h2>O letadle</h2>
+            <p>Airbus A380 je největší dopravní letoun na světě. S kapacitou až 850 cestujících je jedinečný svou velikostí i technologiemi, které umožňují efektivní provoz.</p>
+            <p>Poprvé vzlétl v roce 2005 a od té doby se stal ikonou moderního letectví.</p>
+        </section>
+
+        <section id="specifikace">
+            <h2>Specifikace</h2>
+            <table>
+                <tr>
+                    <th>Rozměr</th>
+                    <th>Hodnota</th>
+                </tr>
+                <tr>
+                    <td>Délka</td>
+                    <td>72,72 m</td>
+                </tr>
+                <tr>
+                    <td>Rozpětí křídel</td>
+                    <td>79,75 m</td>
+                </tr>
+                <tr>
+                    <td>Výška</td>
+                    <td>24,09 m</td>
+                </tr>
+                <tr>
+                    <td>Maximální kapacita</td>
+                    <td>850 pasažérů</td>
+                </tr>
+                <tr>
+                    <td>Maximální dolet</td>
+                    <td>15 200 km</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <img src="a380.jpg" alt="Airbus A380">
+            <p>Airbus A380 při letu.</p>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form action="dekuju.html" method="post">
+                <label for="jmeno">Vaše jméno:</label>
+                <input type="text" id="jmeno" name="jmeno" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="zprava">Zpráva:</label>
+                <textarea id="zprava" name="zprava" required></textarea>
+
+                <button>Odeslat</button> <!-- <button type="submit">Odeslat</button> -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Tomáš Podešva, E3B, 2024/2025 </p>
+    </footer>
+</body>
+</html>
